@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Events</title>
+
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    body{
+        background-color:white;
+        color: black;
+    }
+    nav{
+        background-color:white;
+        color: blue;
+        text-align: center;
+        display: flex;
+        width: 100%;
+        position: fixed;
+    }
+    nav img{
+        height: 45px;
+        border-radius: 40%;
+        margin: 5px;
+    }
+    nav a{
+        font-size: large;
+        font-weight: 900;
+        margin: 18px 3vw;
+        background-color: white;
+        color: black;
+        border-radius: 20px;
+        width: 10vw;
+        display: block;
+        text-decoration: solid;
+    }
+    
+    nav a:hover{
+        background-color:aquamarine;
+        transition: 2s;
+    }
+    
+    
+    
+
+    .container img{
+        width: 100%;    
+    }
+    .centered {
+        position:absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    
+      }
+      
+</style>
+</head>
+<body>
+    <header>
+        <nav>
+            <img id = "logo" src="logo.png" alt="Amrapali Logo">
+            <a href="https://www.amrapali.ac.in/">Home</a>
+            <a href="https://www.amrapali.ac.in/contact-us">Contact Us</a>
+        </nav>
+    </header>
+    <div class="container">
+        <img src="bg-red.jpg" alt="BG Picture">
+    </div>
+    <div class="centered">
+        <h1>Welcome TO Admin Backend</h1>
+    </div>
+
+    
+</body>
+</html>
